@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body bg-neutralLight text-neutralDark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
