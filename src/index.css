@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.icon-whatsapp { color: #25D366 !important; }   /* WhatsApp green */
+.icon-facebook { color: #1877F2 !important; }   /* Facebook blue */
+.icon-instagram { color: #E4405F !important; }  /* Instagram pink */
+.icon-youtube { color: #FF0000 !important; }    /* YouTube red */
+
+/* Optional hover animation for subtle effect */
+.icon-whatsapp:hover,
+.icon-facebook:hover,
+.icon-instagram:hover,
+.icon-youtube:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
